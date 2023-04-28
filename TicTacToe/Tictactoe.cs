@@ -32,10 +32,10 @@ namespace Mashupgaming
                     ChoixDeFinDePartie();                       //menu à choix multiple
 
 
-                } while (rejouer && !retour && quitGame);                   //refait la boucle si "rejouer" et pas "retour"
+                } while (rejouer && !retour && !quitGame);                   //refait la boucle si "rejouer" et pas "retour"
 
 
-            } while (retour && quitGame);                                   //refait la boucle retour
+            } while (retour);                                   //refait la boucle retour
 
 
         }
