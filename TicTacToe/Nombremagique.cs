@@ -46,7 +46,7 @@ namespace Mashupgaming
 
 
             Console.WriteLine("////////////////////////////////");
-            char userInput = Utils.RecupererSaisie("[Q]uitter ? [B]ack ? [R]ejouer ?", 'q', 'b', 'r');
+            char userInput = Utils.RecupererSaisie("[Q]uitter ? [R]ejouer ?", 'q', 'r');
             Console.WriteLine("////////////////////////////////");
 
             rejouer = userInput == 'r';                                             //variable y = true
